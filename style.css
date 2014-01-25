@@ -1,0 +1,52 @@
+/*
+<3
+*/
+
+@font-face {
+  font-family: Source Code Pro;
+  src: url(fonts/SourceCodePro/SourceCodePro-Regular.ttf.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Source Code Pro;
+  src: url(fonts/SourceCodePro/SourceCodePro-Bold.ttf.woff);
+  font-weight: bold;
+}
+
+body {
+    font-family: "Source Code Pro", Arial;
+}
+
+a, a:active, a:focus, a:hover { border: none 0; }
+footer { width: 100%; }
+
+footer p {
+    font-size: 0.5em;
+    color: grey;
+    float: right;
+}
+
+#wrapper {
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+#sosocial {
+    width: 155px;
+    margin: 0 auto;
+}
+
+.email {
+    font-weight: normal;
+    color: grey;
+}
+
+.myname {
+    font-weight: bold;
+    color: black;
+    font-size: 1.1em;
+}
+
+.mysocial img { height: 64px; }
+
