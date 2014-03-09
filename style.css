@@ -24,20 +24,19 @@ footer { width: 100%; }
 footer p {
     font-size: 0.5em;
     color: grey;
-    float: right;
+    float: left;
 }
 
 #wrapper {
-    max-width: 330px;
     margin: 0 auto;
 }
 
 #sosocial {
-    width: 155px;
     margin: 0 auto;
 }
 
 .email {
+    text-align: left;
     font-weight: normal;
     color: grey;
 }
@@ -49,4 +48,15 @@ footer p {
 }
 
 .mysocial img { height: 64px; }
+
+.linkhome {
+  text-decoration: none;
+  border: none;
+}
+
+.btcadress {
+  color: black;
+  font-weight: bold;
+  font-size: 1.1em;
+}
 
