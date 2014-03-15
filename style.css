@@ -19,6 +19,11 @@ body {
 }
 
 a, a:active, a:focus, a:hover { border: none 0; }
+
+a:visited {
+  color: black;
+}
+
 footer { width: 100%; }
 
 footer p {
@@ -33,6 +38,11 @@ footer p {
 
 #sosocial {
     margin: 0 auto;
+}
+
+#sosocial textarea {
+      width: 530px;
+    height: 465px;
 }
 
 .email {
@@ -58,5 +68,10 @@ footer p {
   color: black;
   font-weight: bold;
   font-size: 1.1em;
+}
+
+.pgp {
+  color : black;
+  font-size: 0.7em;
 }
 
