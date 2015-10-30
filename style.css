@@ -14,64 +14,28 @@
   font-weight: bold;
 }
 
-body {
-    font-family: "Source Code Pro", Arial;
-}
-
+body                          { font-family: "Source Code Pro", Arial; }
 a, a:active, a:focus, a:hover { border: none 0; }
-
-a:visited {
-  color: black;
-}
-
-footer { width: 100%; }
-
-footer p {
-    font-size: 0.5em;
-    color: grey;
-    float: left;
-}
-
-#wrapper {
-    margin: 0 auto;
-}
-
-#sosocial {
-    margin: 0 auto;
-}
-
-#sosocial textarea {
-      width: 530px;
-    height: 465px;
-}
+a:visited                     { color: black; }
 
 .email {
-    text-align: left;
-    font-weight: normal;
-    color: grey;
+  text-align: left;
+  font-weight: normal;
+  color: grey;
 }
 
 .myname {
-    font-weight: bold;
-    color: black;
-    font-size: 1.1em;
+  font-weight: bold;
+  color: black;
+  font-size: 1.1em;
 }
-
-.mysocial img { height: 64px; }
 
 .linkhome {
   text-decoration: none;
   border: none;
 }
 
-.btcadress {
-  color: black;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
 .pgp {
   color : black;
   font-size: 0.7em;
 }
-
