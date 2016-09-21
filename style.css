@@ -15,11 +15,11 @@
 }
 
 body                          { font-family: "Source Code Pro", Arial; }
-a, a:active, a:focus, a:hover { border: none 0; }
-a:visited                     { color: black; }
+a, a:active, a:focus, a:hover { text-decoration: none; }
+.stuff                        { font-size: 0.7em; }
+.sosocial img                 { width: 6em; }
 
 .email {
-  text-align: left;
   font-weight: normal;
   color: grey;
 }
@@ -28,14 +28,4 @@ a:visited                     { color: black; }
   font-weight: bold;
   color: black;
   font-size: 1.1em;
-}
-
-.linkhome {
-  text-decoration: none;
-  border: none;
-}
-
-.pgp {
-  color : black;
-  font-size: 0.7em;
 }
