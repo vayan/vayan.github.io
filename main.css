@@ -1,0 +1,21 @@
+body {
+    background-color: #111;
+    color: #ededed;
+    padding: 1.618rem;
+    line-height: 1.618;
+    font-size: 16px;
+}
+
+section {
+    padding: 1.618rem 3.236rem;
+    max-width: 48.54rem;
+    margin: 3.236rem auto;
+    box-shadow: 0 0 12px 6px rgba(0,0,0,0.05);
+    border-radius: .269666667rem;
+    background-color: #212121;
+}
+
+a {
+    color: #50a8d8;
+    text-decoration: none;
+}
