@@ -1,0 +1,42 @@
+body {
+    background-color: #111111;
+    color: #ededed;
+    padding: 1.618rem;
+    line-height: 1.618;
+    font-size: 1rem;
+    font-family: courier, arial, helvetica, serif;
+}
+
+a {
+    color: #50a8d8;
+    text-decoration: none;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loader {
+    background: #212121;
+    width: 70%;
+    height: 2rem;
+}
+
+#loading-message {
+    font-size: .7rem;
+}
+
+#loader-progress {
+    width: 0;
+    height: 100%;
+    background-color: #50a8d8;
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+
+#animation {
+    height: 20rem;
+}
