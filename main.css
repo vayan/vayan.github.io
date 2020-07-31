@@ -10,7 +10,7 @@ section {
     padding: 1.618rem 3.236rem;
     max-width: 48.54rem;
     margin: 3.236rem auto;
-    box-shadow: 0 0 12px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 0 12px 6px rgba(0, 0, 0, 0.05);
     border-radius: .269666667rem;
     background-color: #212121;
 }
@@ -18,4 +18,25 @@ section {
 a {
     color: #50a8d8;
     text-decoration: none;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+.switch {
+    float: right;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
 }
